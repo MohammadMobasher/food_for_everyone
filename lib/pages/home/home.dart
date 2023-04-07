@@ -80,6 +80,7 @@ class Home extends StatelessWidget {
               ),
               TabBar(
                 indicatorColor: const Color(0xFFFA4A0C),
+                labelColor: const Color(0xFFFA4A0C),
                 padding: EdgeInsets.symmetric(horizontal: 20.sp),
                 labelPadding: EdgeInsets.symmetric(vertical: 20.sp),
                 tabs: [
@@ -88,7 +89,7 @@ class Home extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 17.sp,
                       fontWeight: FontWeight.bold,
-                      color: const Color(0xFFFA4A0C),
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -120,7 +121,7 @@ class Home extends StatelessWidget {
               SizedBox(
                 height: 355.h,
                 child: Padding(
-                  padding: EdgeInsets.only(top: 44.sp, bottom: 40.sp),
+                  padding: EdgeInsets.only(top: 25.sp, bottom: 40.sp),
                   child: TabBarView(
                     children: [
                       ListView(
@@ -140,7 +141,7 @@ class Home extends StatelessWidget {
                               child: Column(
                                 children: [
                                   Image.asset(
-                                    "assets/images/food1.png",
+                                    "assets/images/food2.png",
                                     width: 140.w,
                                     height: 140.h,
                                   ),
@@ -183,7 +184,7 @@ class Home extends StatelessWidget {
                               child: Column(
                                 children: [
                                   Image.asset(
-                                    "assets/images/food1.png",
+                                    "assets/images/food2.png",
                                     width: 140.w,
                                     height: 140.h,
                                   ),
@@ -226,7 +227,7 @@ class Home extends StatelessWidget {
                               child: Column(
                                 children: [
                                   Image.asset(
-                                    "assets/images/food1.png",
+                                    "assets/images/food2.png",
                                     width: 140.w,
                                     height: 140.h,
                                   ),
@@ -269,7 +270,7 @@ class Home extends StatelessWidget {
                               child: Column(
                                 children: [
                                   Image.asset(
-                                    "assets/images/food1.png",
+                                    "assets/images/food2.png",
                                     width: 140.w,
                                     height: 140.h,
                                   ),
@@ -312,7 +313,7 @@ class Home extends StatelessWidget {
                               child: Column(
                                 children: [
                                   Image.asset(
-                                    "assets/images/food1.png",
+                                    "assets/images/food2.png",
                                     width: 140.w,
                                     height: 140.h,
                                   ),
