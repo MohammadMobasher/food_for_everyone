@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
+import '../../core/settings/app_route.dart';
+
 class Splash extends StatelessWidget {
   const Splash({super.key});
 
@@ -51,7 +53,7 @@ class Splash extends StatelessWidget {
             width: Get.width,
             child: ElevatedButton(
               onPressed: () {
-                // Get.toNamed(AppRoute.home);
+                Get.toNamed(AppRoute.login);
               },
               style: ElevatedButton.styleFrom(
                   padding: EdgeInsets.symmetric(vertical: 25.sp, horizontal: 104.sp),
