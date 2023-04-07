@@ -1,3 +1,4 @@
+import 'package:food_for_everyone/pages/home/home.dart';
 import 'package:food_for_everyone/pages/login/login_page.dart';
 import 'package:food_for_everyone/pages/splash/splash.dart';
 import 'package:get/get.dart';
@@ -18,10 +19,10 @@ class AppRoute {
       page: () => const LoginPage(),
       opaque: false,
     ),
-    // GetPage(
-    //   name: home,
-    //   page: () => Home(),
-    //   opaque: false,
-    // ),
+    GetPage(
+      name: home,
+      page: () => const Home(),
+      opaque: false,
+    ),
   ];
 }
