@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:food_for_everyone/core/settings/app_route.dart';
+import 'package:food_for_everyone/pages/home/home.dart';
 import 'package:get/get.dart';
 
 class Login extends StatelessWidget {
@@ -108,7 +109,7 @@ class Login extends StatelessWidget {
             width: Get.width,
             child: ElevatedButton(
               onPressed: () {
-                Get.toNamed(AppRoute.home);
+                Get.off(const Home());
               },
               style: ElevatedButton.styleFrom(
                   padding: EdgeInsets.symmetric(vertical: 25.sp, horizontal: 104.sp),

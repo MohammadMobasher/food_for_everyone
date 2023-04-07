@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:food_for_everyone/pages/login/login_page.dart';
 import 'package:get/get.dart';
 
 import '../../core/settings/app_route.dart';
@@ -53,7 +54,7 @@ class Splash extends StatelessWidget {
             width: Get.width,
             child: ElevatedButton(
               onPressed: () {
-                Get.toNamed(AppRoute.login);
+                Get.off(const LoginPage());
               },
               style: ElevatedButton.styleFrom(
                   padding: EdgeInsets.symmetric(vertical: 25.sp, horizontal: 104.sp),
