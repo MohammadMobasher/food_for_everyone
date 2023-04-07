@@ -111,6 +111,7 @@ class Login extends StatelessWidget {
                 Get.toNamed(AppRoute.home);
               },
               style: ElevatedButton.styleFrom(
+                  padding: EdgeInsets.symmetric(vertical: 25.sp, horizontal: 104.sp),
                   tapTargetSize: MaterialTapTargetSize.shrinkWrap,
                   backgroundColor: const Color(0xffFA4A0C),
                   shape: RoundedRectangleBorder(
