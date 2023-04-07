@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:food_for_everyone/pages/login/views/login.dart';
+import 'package:food_for_everyone/pages/login/views/sign_up.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -58,7 +59,7 @@ class LoginPage extends StatelessWidget {
         body: const TabBarView(
           children: [
             Login(),
-            Icon(Icons.abc),
+            SingUp(),
           ],
         ),
       ),
