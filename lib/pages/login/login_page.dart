@@ -26,8 +26,6 @@ class LoginPage extends StatelessWidget {
             children: [
               Image.asset(
                 "assets/images/splash_icon.png",
-                // width: 150.w,
-                // height: 162.38.h,
               ),
             ],
           ),
